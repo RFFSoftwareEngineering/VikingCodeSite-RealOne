@@ -34,6 +34,9 @@
     <Compile Include="Core\apps.py" />
     <Compile Include="Core\migrations\__init__.py" />
     <Compile Include="Core\models.py" />
+    <Compile Include="Core\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Core\tests.py" />
     <Compile Include="Core\views.py" />
     <Compile Include="Core\__init__.py" />
@@ -44,6 +47,7 @@
     <Compile Include="VikingCodeSite\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Core\Templates\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
