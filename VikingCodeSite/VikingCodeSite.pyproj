@@ -30,6 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Core\admin.py" />
+    <Compile Include="Core\apps.py" />
+    <Compile Include="Core\migrations\__init__.py" />
+    <Compile Include="Core\models.py" />
+    <Compile Include="Core\tests.py" />
+    <Compile Include="Core\views.py" />
+    <Compile Include="Core\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="VikingCodeSite\__init__.py" />
     <Compile Include="VikingCodeSite\settings.py" />
@@ -40,6 +47,13 @@
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="Core\migrations\" />
+    <Folder Include="Core\Static\" />
+    <Folder Include="Core\Static\css\" />
+    <Folder Include="Core\Static\images\" />
+    <Folder Include="Core\Static\javascript\" />
+    <Folder Include="Core\Templates\" />
     <Folder Include="VikingCodeSite\" />
   </ItemGroup>
   <ItemGroup>
