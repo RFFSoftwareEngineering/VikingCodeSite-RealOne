@@ -43,7 +43,8 @@ body {
 #magicbtn:hover {
     color: blueviolet;
     background: rgb(0, 0, 102);
-    box-shadow: 0 0 10px rgb(0, 0, 102), 0 0 40px rgb(0, 0, 102),0 0 80px rgb(0, 0, 102);    
+    box-shadow: 0 0 10px rgb(0, 0, 102), 0 0 40px rgb(0, 0, 102),0 0 80px rgb(0, 0, 102);
+    transition-delay: 1s;
 }
 
 
