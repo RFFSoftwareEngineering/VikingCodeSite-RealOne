@@ -4,6 +4,7 @@
     <Name>VikingCodeSite</Name>
     <RootNamespace>VikingCodeSite</RootNamespace>
     <InterpreterId>Global|VisualStudio|VikingCodeSite</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
