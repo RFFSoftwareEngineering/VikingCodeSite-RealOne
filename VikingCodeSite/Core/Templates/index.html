@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 {% load bootstrap5 %}
-{% bootstrap_css %}
-{% bootstrap_javascript %}
-
+{% load static %}
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <title>Viking Code</title>
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    <link rel="stylesheet" href="{% static 'css/root.css' %}" />
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>MARAVILHA</h1>
+    <div id="bersekerdiv">
+        <img id="berserker" src="{% static 'images/VikingCode~2.jpg' %}" alt="Image not Found '404'" />
+    </div>    
+        <div id="welcomeT">
+            <h2 id="welcometext">Bem-vindo(a) à Viking Code</h2>
+        </div>
+    <div id="teste">
+        <a id="magicbtn" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Entrar
+        </a>
+    </div>
 </body>
 </html>
