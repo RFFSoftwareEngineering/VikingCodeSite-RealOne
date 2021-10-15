@@ -3,11 +3,11 @@
 {% load static %}
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Viking Code</title>
     {% bootstrap_css %}
     {% bootstrap_javascript %}
-    <link rel="stylesheet" href="{% static 'css/root.css' %}" />
+    <link href="{% static 'css/root.css' %}" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">    
 </head>
 <body>
@@ -15,7 +15,7 @@
         <img id="berserker" src="{% static 'images/VikingCode~2.jpg' %}" alt="Image not Found '404'" />
     </div>    
         <div id="welcomeT">
-            <h2 id="welcometext">Bem-vindo(a) à Viking Code</h2>
+            <h2 id="welcometext">Viking Code</h2>
         </div>
     <div id="teste">
         <a id="magicbtn" href="{% url 'home' %}">
