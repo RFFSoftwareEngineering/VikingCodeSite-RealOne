@@ -107,3 +107,20 @@ a:hover span:nth-child(4) {
     transition: 1s;
     transition-delay: 0.75s;
     }
+
+
+@keyframes entrar {
+    from {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+#berserker.animate {
+    animation-name: entrar;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
