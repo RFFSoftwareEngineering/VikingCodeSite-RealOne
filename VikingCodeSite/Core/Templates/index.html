@@ -8,11 +8,11 @@
     {% bootstrap_css %}
     {% bootstrap_javascript %}
     <link rel="stylesheet" href="{% static 'css/root.css' %}" />
-    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">    
 </head>
 <body>
     <div id="bersekerdiv">
-        <img id="berserker" src="{% static 'images/VikingCode~2.jpg' %}" alt="Image not Found '404'" />
+        <img id="berserker" class="animate" src="{% static 'images/VikingCode~2.jpg' %}" alt="Image not Found '404'" />
     </div>    
         <div id="welcomeT">
             <h2 id="welcometext">Bem-vindo(a) à Viking Code</h2>
@@ -26,5 +26,6 @@
             Entrar
         </a>
     </div>
+    <script type="text/javascript" src="{% static 'javascript/animroot.js' %}"></script>
 </body>
 </html>

@@ -50,6 +50,7 @@
   <ItemGroup>
     <Content Include="Core\Static\css\root.css" />
     <Content Include="Core\Static\images\VikingCode~2.jpg" />
+    <Content Include="Core\Static\javascript\animroot.js" />
     <Content Include="Core\Templates\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>

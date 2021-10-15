@@ -37,6 +37,7 @@ body {
     overflow: hidden;
     transition: 0.2s;
     padding: 7px 30px;
+    border-radius: 7px;
 }
 
 
