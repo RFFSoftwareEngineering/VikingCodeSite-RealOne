@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Core\Static\css\root.css" />
+    <Content Include="Core\Static\css\HomePage.css" />
     <Content Include="Core\Static\images\undcons.png" />
     <Content Include="Core\Static\images\VikingCode~2.jpg" />
     <Content Include="Core\Static\javascript\animroot.js" />
