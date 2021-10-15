@@ -110,17 +110,21 @@ a:hover span:nth-child(4) {
 
 
 @keyframes entrar {
-    from {
+    0% {
         opacity: 0.3;
     }
-    to {
+    50% {
         opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
+
 #berserker.animate {
     animation-name: entrar;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
 }
