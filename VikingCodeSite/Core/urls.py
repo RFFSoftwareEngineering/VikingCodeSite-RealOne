@@ -4,6 +4,6 @@ from .views import index, home
 
 urlpatterns = [
     path('', index, name='index'),
-    path('home', home, name='home'),
+    path('HomePage', home, name='home'),
 ]
 
