@@ -12,9 +12,17 @@
 </head>
 <body>
     <img id="berserker-icon" src="{% static 'images/sidebar-icon.png' %}" alt="Image not Found '404'" />
+    <img id="VikingCodeLogo" src="{% static 'images/VikingCode~2.jpg' %}" alt="404" />
+    <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+    </label>
+    <label id="theme">
+        Theme
+    </label>
     <div id="topbar">
         <ul>
-            <li><a id="link1" class="active" href="#">Teste</a></li>
+            <li><a id="homelink" class="active" href="{% url 'home' %}">Viking Code</a><a id="RegisteredTM" href="{% url 'home' %}">®</a></li>
         </ul>
     </div>
 </body>
