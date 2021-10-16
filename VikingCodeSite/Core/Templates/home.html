@@ -10,13 +10,15 @@
     <link href="{% static 'css/HomePage.css' %}" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="teste2">
     <img id="berserker-icon" src="{% static 'images/sidebar-icon.png' %}" alt="Image not Found '404'" />
     <img id="VikingCodeLogo" src="{% static 'images/VikingCode~2.jpg' %}" alt="404" />
-    <label class="switch">
-        <input type="checkbox" checked>
+    <div id="teste">
+    <label id="switchbtn" class="switch">
+        <input id="teste1" type="checkbox" checked="checked" placeholder="teste">
         <span class="slider round"></span>
     </label>
+    </div>
     <label id="theme">
         Theme
     </label>
@@ -25,5 +27,6 @@
             <li><a id="homelink" class="active" href="{% url 'home' %}">Viking Code</a><a id="RegisteredTM" href="{% url 'home' %}">®</a></li>
         </ul>
     </div>
+    <script type="text/javascript" src="{% static 'javascript/animtheme.js' %}"></script>
 </body>
 </html>

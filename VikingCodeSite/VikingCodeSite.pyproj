@@ -54,6 +54,7 @@
     <Content Include="Core\Static\images\undcons.png" />
     <Content Include="Core\Static\images\VikingCode~2.jpg" />
     <Content Include="Core\Static\javascript\animroot.js" />
+    <Content Include="Core\Static\javascript\animtheme.js" />
     <Content Include="Core\Templates\index.html" />
     <Content Include="Core\Templates\home.html" />
     <Content Include="requirements.txt" />

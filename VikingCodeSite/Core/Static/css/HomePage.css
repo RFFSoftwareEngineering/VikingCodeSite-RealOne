@@ -117,3 +117,40 @@ input:checked + .slider:before {
     font-size: 13px;
     top: 10px;
 }
+
+@keyframes theme {
+    from {
+        background-color: #202020;
+    }
+
+    to {
+        background-color: #f7f7f7;
+        color: black;
+    }
+}
+
+
+body.animate {
+    animation-name: theme;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes theme1 {
+    from {
+        background-color: #313131;
+    }
+
+    to {
+        background-color: gainsboro;
+        color: black;
+    }
+}
+
+#topbar.animate {
+    animation-name: theme1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
