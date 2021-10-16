@@ -19,11 +19,13 @@ body
 #link1 {
     position: absolute;
     padding-top: 3.5px;
-    text-decoration: none;    
+    text-decoration: none;
+    padding-left: 36px;
 }
 
 #berserker-icon {
     object-fit: cover;
-    width: 52px;
-    height: 52px;
+    width: 49px;
+    height: 49px;
+    position: absolute;
 }
