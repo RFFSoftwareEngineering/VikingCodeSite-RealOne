@@ -120,8 +120,39 @@ a:hover span:nth-child(4) {
     }
 }
 
+@keyframes texto {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+@keyframes butao {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+#magicbtn.animbtn {
+    animation-delay: 11s;
+    animation-name: butao;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#welcometext.animtxt {
+    animation-delay: 11s;
+    animation-name: texto;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
 
 #berserker.animate {
     animation-delay: 11s;
