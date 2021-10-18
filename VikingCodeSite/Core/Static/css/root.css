@@ -31,7 +31,7 @@ body {
     transform: translate(-50%, -50%);
     font-family: "Goldman", sans-serif;
     font-size: 25px;
-    color: rgba(0, 193, 32, 0.79);
+    color: black;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
@@ -39,16 +39,20 @@ body {
     transition: 0.2s;
     padding: 7px 30px;
     border-radius: 7px;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    background-color: #004900;
     opacity: 0;
 }
 
 
-#magicbtn:hover {
-    color: blueviolet;
-    background: rgb(0, 0, 102);
-    box-shadow: 0 0 10px rgb(0, 0, 102), 0 0 40px rgb(0, 0, 102),0 0 80px rgb(0, 0, 102);
-    transition-delay: 1s;
-}
+    #magicbtn:hover {
+        color: green;
+        background: #004900;
+        box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+        transition-delay: 1s;
+    }
 
 
 a span {
