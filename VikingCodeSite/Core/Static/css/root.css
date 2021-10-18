@@ -112,11 +112,11 @@ a:hover span:nth-child(4) {
 
 
 @keyframes entrar {
-    0% {
+    from {
         opacity: 0;
     }    
-    100% {
-        opacity: 1;
+    to {
+        opacity: 0.4;
     }
 }
 
@@ -135,6 +135,15 @@ a:hover span:nth-child(4) {
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes berserk {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.4;
     }
 }
 
@@ -1859,6 +1868,25 @@ a:hover span:nth-child(4) {
 #error.animate2 {
     animation-delay: 6s;
     animation-name: matrix2;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes matrix3 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#error.animate4 {
+    animation-delay: 8.5s;
+    animation-name: matrix3;
     animation-duration: 1.3s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;

@@ -77,6 +77,8 @@ error.classList.toggle('animate2');
 error.classList.toggle('animate3');
 welcometext.classList.toggle('animtxt');
 magicbtn.classList.toggle('animbtn');
+error.classList.toggle('animate4');
+berserker.classList.toggle('animate');
 magicbtn.addEventListener('click', () => {
     berserker.classList.toggle('animate');
 });
