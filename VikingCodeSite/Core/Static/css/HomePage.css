@@ -32,6 +32,10 @@ body
     position: absolute;
 }
 
+#berserker-icon:hover {
+    background-color: Highlight;
+}
+
 #VikingCodeLogo {
     object-fit: cover;
     width: 49px;
