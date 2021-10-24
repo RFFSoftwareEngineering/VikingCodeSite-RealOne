@@ -120,6 +120,5 @@ magicbtn.addEventListener('click', () => {
     m37.classList.toggle('animate5');
     m38.classList.toggle('animate5');
     m39.classList.toggle('animate5');
-    m40.classList.toggle('animate5');
-   
+    m40.classList.toggle('animate5');   
 });
