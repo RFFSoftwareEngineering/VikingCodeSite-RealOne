@@ -119,9 +119,9 @@ input:checked + .slider:before {
     color: Highlight;
     position: absolute;
     font-family: "Goldman", "sans-serif";
-    right: 52px;
+    right: 10px;
     font-size: 13px;
-    top: 10px;
+    top: 28px;
 }
 
 @keyframes theme {
