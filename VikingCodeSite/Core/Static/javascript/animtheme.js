@@ -6,5 +6,5 @@ berserkerslide.addEventListener('click', () => {
 themebtn.addEventListener('click', () => {
     bodyid.classList.toggle('animate');
     topbar.classList.toggle('animate');
-    testezin.classList.toggle('animate');
+    sidebar.classList.toggle('animate');
 });

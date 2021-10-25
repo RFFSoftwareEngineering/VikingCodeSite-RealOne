@@ -186,7 +186,7 @@ body.animate {
     letter-spacing: 1.5px;
 }
 
-#testezin.animate {
+#sidebar.animate {
     animation-name: theme1;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
