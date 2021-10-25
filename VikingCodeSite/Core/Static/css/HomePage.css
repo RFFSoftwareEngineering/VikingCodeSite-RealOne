@@ -130,7 +130,7 @@ input:checked + .slider:before {
     }
 
     to {
-        background-color: #f7f7f7;
+        background-color: #d4d5ea;
         color: black;
     }
 }
@@ -149,7 +149,7 @@ body.animate {
     }
 
     to {
-        background-color: gainsboro;
+        background-color: #b1b7db;
         color: black;
     }
 }
@@ -184,4 +184,11 @@ body.animate {
     text-decoration: none;
     font-family: "Goldman", "sans-serif";
     letter-spacing: 1.5px;
+}
+
+#testezin.animate {
+    animation-name: theme1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
 }
