@@ -192,3 +192,96 @@ body.animate {
     animation-fill-mode: forwards;
     animation-timing-function: ease;
 }
+
+#link2 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link3 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link4 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link5 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link6 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link7 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link8 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link9 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link10 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link11 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link12 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link13 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link14 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#link15 {
+    text-decoration: none;
+    font-family: "Goldman", "sans-serif";
+    letter-spacing: 1.5px;
+}
+
+#sidebar li {
+    padding: 9px;
+    list-style-type: none;
+}
+
+#sidebar li:hover {
+    background-color: #5aa764
+}
