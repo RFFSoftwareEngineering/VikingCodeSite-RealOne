@@ -339,3 +339,10 @@ body.animate {
     padding-left: 40px;
     text-shadow: 5px 5px 20px #16581f, 10px 10px 40px #16581f, 10px 10px 80px #16581f;
 }
+
+#gestao {
+    padding-top: 25px;
+    position: absolute;
+    left: 22%;
+    padding-bottom: 25px;
+}
