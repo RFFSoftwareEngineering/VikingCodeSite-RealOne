@@ -285,3 +285,24 @@ body.animate {
 #sidebar li:hover {
     background-color: #5aa764
 }
+
+#TextoHomePage {    
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+
+#VkAp {
+    font-family: "Goldman", "sans-serif";
+    color: #008311;
+    letter-spacing: 4px;
+    padding-bottom: 45px;
+}
+
+#QuemSomos {
+    font-family: "Goldman", "sans-serif";
+    color: green;
+    letter-spacing: 1.6px;
+    font-size: 20px;
+    padding-left: 40px;
+}
