@@ -303,7 +303,7 @@ body.animate {
 #QuemSomos {
     font-family: "Goldman", "sans-serif";
     color: #00ff23;
-    letter-spacing: 1.6px;
+    letter-spacing: 2px;
     font-size: 24px;
     padding-left: 40px;
     text-shadow: 5px 5px 20px #16581f, 10px 10px 40px #16581f, 10px 10px 80px #16581f;
@@ -329,4 +329,13 @@ body.animate {
     padding-bottom: 45px;
     text-shadow: 5px 5px 20px #16581f, 10px 10px 40px #16581f, 10px 10px 80px #16581f;
     padding-top: 25px;
+}
+
+#vkmen {
+    font-family: "Goldman", "sans-serif";
+    color: #00ff23;
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding-left: 40px;
+    text-shadow: 5px 5px 20px #16581f, 10px 10px 40px #16581f, 10px 10px 80px #16581f;
 }
