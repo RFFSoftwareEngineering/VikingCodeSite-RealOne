@@ -367,3 +367,83 @@ body.animate {
     text-shadow: 5px 5px 20px #16581f, 10px 10px 40px #16581f, 10px 10px 80px #16581f;
     padding-top: 25px;
 }
+
+#purposeimg {
+    object-fit: cover;
+    width: 95%;
+    height: 50%;
+}
+
+#purposetxt {
+    font-family: "Goldman", "sans-serif";
+    color: #00ff23;
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding-left: 40px;
+    text-shadow: 5px 5px 20px #16581f, 10px 10px 40px #16581f, 10px 10px 80px #16581f;
+    padding-top: 50px;
+    line-height: 61px;
+}
+
+@keyframes themetotal {
+    to {
+        color: #000;
+        text-shadow: 5px 5px 20px #000, 10px 10px 40px #000, 10px 10px 80px #000;
+    }
+}
+
+#VkAp.animate3 {
+    animation-name: themetotal;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#mentalidadevk.animate3 {
+    animation-name: themetotal;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#Proposito.animate3 {
+    animation-name: themetotal;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes themetotal2 {
+    to {
+        color: #373737;
+        text-shadow: 5px 5px 20px #373737, 10px 10px 40px #373737, 10px 10px 80px #373737;
+    }
+}
+
+#QuemSomos.animate4 {
+    animation-name: themetotal2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#vkmen.animate4 {
+    animation-name: themetotal2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#gestaoexplanation.animate4 {
+    animation-name: themetotal2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#purposetxt.animate4 {
+    animation-name: themetotal2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
