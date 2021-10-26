@@ -307,6 +307,7 @@ body.animate {
     font-size: 24px;
     padding-left: 40px;
     text-shadow: 5px 5px 20px #16581f, 10px 10px 40px #16581f, 10px 10px 80px #16581f;
+    line-height: 61px;
 }
 
 @keyframes movetext {
@@ -345,4 +346,24 @@ body.animate {
     position: absolute;
     left: 22%;
     padding-bottom: 25px;
+}
+
+#gestaoexplanation {
+    font-family: "Goldman", "sans-serif";
+    color: #00ff23;
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding-left: 40px;
+    text-shadow: 5px 5px 20px #16581f, 10px 10px 40px #16581f, 10px 10px 80px #16581f;
+    padding-top: 550px;
+    line-height: 61px;
+}
+
+#Proposito {
+    font-family: "Goldman", "sans-serif";
+    color: #00c81c;
+    letter-spacing: 4px;
+    padding-bottom: 45px;
+    text-shadow: 5px 5px 20px #16581f, 10px 10px 40px #16581f, 10px 10px 80px #16581f;
+    padding-top: 25px;
 }
