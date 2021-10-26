@@ -1,5 +1,6 @@
 berserkerslide.addEventListener('click', () => {
     ModalSlider.classList.toggle('animate1');
+    TextoHomePage.classList.toggle('animate2');
 });
 
 
